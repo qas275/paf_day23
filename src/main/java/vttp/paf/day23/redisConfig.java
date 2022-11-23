@@ -23,7 +23,7 @@ public class redisConfig {
     private int redisPort;
 
     //@Value("${spring.redis.password}") TODO change when working LOCAL
-    private String redisPassword = "weishunlim";
+    private String redisPassword = "";
 
     @Value("${spring.redis.database}")
     private int redisDB;
